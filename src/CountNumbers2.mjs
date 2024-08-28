@@ -8,7 +8,7 @@ function CountNumbers2 ({countfromparent})
       {
         setCount(countfromparent)
       },
-        [countfromparent]
+        [countfromparent]        
     );
 
 

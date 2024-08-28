@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import CountNumbers from './CountNumbers.mjs';
-import ArithmeticOperations from './arithmetic operations.mjs';
+// import CountNumbers from './CountNumbers.mjs';
+// import ArithmeticOperations from './arithmetic operations.mjs';
+import VoteEligibility from './EligibilityForVote';
+import PhoneBook from './PhoneBook';
+import PhoneBook2 from './PhoneBook2';
+import Form from './Form';
 
 function App() {
   return (
@@ -20,9 +24,14 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <CountNumbers/>
-      <ArithmeticOperations/>
-      
+      {/* <CountNumbers/>
+      <ArithmeticOperations/> */}
+      {/* <VoteEligibility/>
+      <PhoneBook/>
+      <PhoneBook2/> */}
+
+     <Form/> 
+     
 
 
     </div>
